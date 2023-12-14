@@ -1,0 +1,275 @@
+
+    /* ---------------------------------- Меню сайта --------------------------------- */
+    
+    /* Контейнер меню */
+    #nav660300310 {
+        max-width: 1240px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+    
+    /* Пункт меню */
+    .t-menu__link-item {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* ---------------------------------- Попап с документом --------------------------------- */
+    
+    /* Контейнер попапа с документом */
+    .t-popup__container {
+        border-radius: 30px !important;
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important:
+    }
+    
+    /* Изображение в попапе с документом */
+    .t390__img {
+        border-radius: 30px !important;
+        order: 2 !important;
+    }
+    
+    /* Текст в попапе с документом */
+    .t390__descr {
+        font-size: 15px !important;
+    }
+    
+    /* Секция помощь */
+    .help {
+        width: 100% !important;
+        padding: 20px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+    
+    /* Заголовок секции помощь */
+    .help__title {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Таблица секции помощь */
+    .help__table {
+        padding: 0 !important;
+        margin: 15px auto 0 !important;
+        list-style: none !important;
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: 1fr max-content max-content !important;
+        border: .5px solid black;
+        overflow: scroll !important;
+    }
+    
+    /* Ячейка секции помощь */
+    .help__ceil {
+        padding: 10px !important;
+        border: .5px solid black;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+        color: black !important;
+    }
+    
+    /* Ссылка секции помощь */
+    .help__link {
+        color: #6a5dab !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* ---------------------------------- Попап оформления заказа --------------------------------- */
+    
+    /* Иконка корзины */
+    .t706__carticon {
+        bottom: 100px !important;
+        right: 23px !important;
+    }
+
+    /* Контейнер попапа формы оформления заказа */
+    .t706__cartwin-content {
+        border-radius: 30px !important;
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD);
+    }
+    
+    /* Верхний блок попапа формы оформления заказа */
+    .t706__cartwin-top {
+        border-bottom: 1px solid #6a5dab !important;
+    }
+    
+    /* Нижний блок попапа формы оформления заказа */
+    .t706__cartwin-bottom {
+        border-top: 1px solid #6a5dab !important;
+    }
+    
+    /* Заголовок попапа формы оформления заказа */
+    .t706__cartwin-heading {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Фото психолога в корзине товаров */
+    .t706__product-imgdiv {
+        width: 65px !important;
+        height: 80px !important;
+    }
+    
+    /* Контейнер кнопки удаления товара из корзины */
+    .t706__product-del {
+        background-color: #6a5dab !important;
+        border-radius: 100%; 
+    }
+    
+    /* Заголовок психолога в выбранном заказе */
+    .t706__product-title {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Заголовок цены услуг психолога */
+    .t706__cartwin-prodamount-price {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Заголовок валюты цены услуг психолога */
+    .t706__cartwin-prodamount-currency {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Заголовок общей цены в заказе */
+    .t706__cartwin-prodamount-wrap {
+        display: none !important;
+    }
+    
+    /* Заголовок поля ввода формы оформления заказа */
+    .t-input-title {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+        color: #6a5dab !important;
+    }
+    
+    /* Поле ввода формы оформления заказа */
+    .t-input {
+        border: 1px solid #6a5dab !important;
+        border-radius: 30px !important;
+        background-color: inherit !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: black !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Плейсхолдер поля ввода */
+    .t-input::placeholder {
+        color: #000 !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Поле ввода формы оформления заказа для телефона */
+    .t-input-phonemask {
+       border: none !important; 
+    }
+    
+    /* Кнопка применения промокода */
+    .t-inputpromocode__btn {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Кнопка сабмита формы оформления заказа */
+    .t-submit {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Текст промокода в форме оформления заказа */
+    .t-text {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с рассчетом промокода */
+    .t706__cartwin-totalamount-info {
+        display: none !important;
+    }
+    
+    
+    /* Текст итоговой суммы в калькуляторе промокода */
+    .t706__cartwin-totalamount-label {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с уведомлением об ошибке */
+    .t-form__errorbox-wrapper {
+        border-radius: 30px;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Текст в контейнере с уведомлением об ошибке */
+    .t-input-error {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с формой успеха */
+    .t-form__successbox {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+    }
+ 
+    
+    /* ---------------------------------- Различные версии устройств --------------------------------- */
+    
+    @media screen and (max-width: 960px) {
+        
+        /* Фон шапки меню */
+        .tmenu-mobile {
+            background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+        }
+        
+        /* Фон всплывающего контейнера меню */
+        .tmenu-mobile__menucontent_fixed {
+            background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+        }
+    }
+    
+    @media screen and (max-width: 560px) {
+        
+        /* Изменили углы контейнера формы оформления заказа в мобильной версии */
+        .t706__cartwin-content {
+            border-radius: 0 !important;
+        }
+        
+        /* Изменили цвет контейнера закрытия попапа над формой оформления заказа в мобильной версии */
+        .t706__cartwin-close {
+            background-color: #6a5dab !important;
+        }
+        
+    }

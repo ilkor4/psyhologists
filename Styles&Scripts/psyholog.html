@@ -1,0 +1,67 @@
+<!-------------------------------Программа для заполнения страницы психолога виджетом и контейнером с запросами--------------------------------->
+
+
+<!-------------------------------Скрипт размещения виджета бронирования--------------------------------->
+<script defer>
+     // Константа ссылки на виджет -  передаюм строку src на виджет онлайн бронирования.
+    const widgetLink = "https://lk.teta.su/frame?doctor=1689609&clinic=24457&hideClinic=true&hideService=true&consultationType=visit&uuid=1c907193-f61a-46e6-a23b-2743cac4fee7"; 
+    
+    // Находим на странице родительский блок для виджета.
+    let widgetParent = document.querySelector('.t762__col:last-of-type');
+    
+    // Создаем переменную с iframe для вставки виджета.
+    let widgetContainer = document.createElement('iframe');
+    
+    // Добавлем класс для контейнера виджета.
+    widgetContainer.className = 'widget__container';
+    // Добавляем source атрибут контейнеру виджета.
+    widgetContainer.src = widgetLink;
+    
+    // Добавляем виджет в родительский контейнер
+    widgetParent.appendChild(widgetContainer);
+</script>
+
+<!-------------------------------Скрипт размещения виджетов на странице--------------------------------->
+<script>
+    // Константа Исходного текста запросов - передаем строку с запросами через запятую.
+    const initialText = 'проблемы в общении, поиск себя, неуверенность в себе/низкая самооценка, трудности в отношениях, прокрастинация/выгорание, панические атаки, стресс/депрессия, тревоги/страхи, отношения в семье, детско-родительские отношения, сексуальные отношения, непонятные эмоции, апатия/потеря смысла жизни, карьера/планы/деньги, навязчивые мысли';
+    // Создаем массив исходных текстов запросов по разделителю запятая с пробелом.
+    const initialTextsArray = initialText.split(', ');
+    
+    // Находим на странице родительский блок для запросов.
+    let requestsParent = document.querySelector('.t762');
+    
+    // Создаем контейнер для списка запросов.
+    let requestsContainer = document.createElement('div');   
+    // Создаем список запросов.
+    let requestsList = document.createElement('ul');
+    
+    // Добавляем класс контейнеру запросов.
+    requestsContainer.className = 'requests__container';
+    // Добавляем класс списку запросов.
+    requestsList.className = 'requests__list';
+    
+    // Проходимся по массиву запросов и создаем новый элемент.
+    initialTextsArray.map((item) => {
+      // Создаем элемент списка запросов.
+      let requestsText = document.createElement('li');
+      // Добавляем запросы текст.
+      requestsText.textContent = item;
+      // Добавляем запросу класс.
+      requestsText.className = 'requests__text';
+      // Вставляем запрос в список
+      requestsList.appendChild(requestsText)
+    });
+    
+    // Добавляем в контейнер запросов список
+    requestsContainer.appendChild(requestsList);
+    
+    // Добавляем контейнер запросов в родительский контейнер
+    requestsParent.appendChild(requestsContainer);
+</script>
+
+    <!-------------------------------Cкрипт удаления заголовка запросов в мобильной версии--------------------------------->
+<script>
+    // Находим и добавляем класс заголовку запросов.
+    document.querySelector('.t762__descr').children[0].children[document.querySelector('.t762__descr').children[0].children.length - 1].classList.add('requests__title');
+</script>

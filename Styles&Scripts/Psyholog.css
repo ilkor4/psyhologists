@@ -1,0 +1,394 @@
+    /* Контейнер со всем содержимым на странице */
+    .t-rec {
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD);
+    }
+    
+    /* Контейнер со всем содержимым на странице */
+    .t-rec_pt_120 {
+        min-height: 75vh !important;
+    }
+
+   /* ---------------------------------- Меню сайта --------------------------------- */
+    
+    /* Пункт меню */
+    .t-menu__link-item {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Фон шапки меню */
+    .tmenu-mobile {
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+    }
+    
+    /* Фон всплывающего контейнера меню */
+    .tmenu-mobile__menucontent_fixed {
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+    }
+
+    /* ---------------------------------- Секция - О психологе --------------------------------- */
+    
+    /* Блок с информацией о психологе */
+    .t762 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+        gap: 40px !important;
+    }
+    
+    /* Контейнер с изображением психолога (первая колонка) */
+    .t762__col:first-of-type {
+        width: 286px !important;
+    }
+    
+    /* Изображение психолога */
+    .t-slds__bgimg {
+        border-radius: 30px !important;
+        height: 400px !important;
+        width: 286px !important;
+        padding-bottom: unset !important;
+    }
+    
+    /* Контейнер с описанием психолога (вторая колонка) */
+    .t762__col:last-of-type {
+        display: grid;
+        grid-template-columns: 1fr min-content;
+        row-gap: 10px;
+        width: 100% !important;
+    }
+    
+    /* Обертка с описанием психолога */
+    .t762__textwrapper {
+        padding-top: 30px;
+    }
+    
+    /* Контейнер с информацией о психологе */
+    .js-store-single-product-info {
+        padding: 0 40px !important;
+    }
+    
+    /* Заголовок имени психолога */
+    .t762__title {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Цена психолога */
+    .t762__price-value {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Значение валюты цены психолога */
+    .t762__price-currency {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Кнопка записи к психологу */
+    .t762__btn {
+        background: #6a5dab !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+        color: white !important;
+    }
+    
+    /* Контейнер с виджетом записи к психологу */
+    .widget__container {
+        display: block;
+        border: 0;
+        min-height: 286px;
+        height: 286px;
+        width: 400px;
+    }
+    
+    /* Контейнер со списком запросов */
+    .requests__container {
+        width: 100%;
+        padding: 0 40px;
+        box-sizing: border-box;
+        min-height: 150px !important;
+    }
+    
+    /* Список запросов */
+    .requests__list {
+        margin: 0 !important;
+        padding: 0 !important;
+        list-style: none !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px !important;
+    }
+    
+    /* Текст запроса */
+    .requests__text {
+        background-color: rgba(106, 93, 171, 0.16);
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* ---------------------------------- Попап с документом --------------------------------- */
+    
+    /* Контейнер попапа с документом */
+    .t-popup__container {
+        border-radius: 30px !important;
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important:
+    }
+    
+    /* Изображение в попапе с документом */
+    .t390__img {
+        border-radius: 30px !important;
+        order: 2 !important;
+    }
+    
+    /* Текст в попапе с документом */
+    .t390__descr {
+        font-size: 15px !important;
+    }
+    
+    /* ---------------------------------- Попап оформления заказа --------------------------------- */
+    
+
+    /* Контейнер попапа формы оформления заказа */
+    .t706__cartwin-content {
+        border-radius: 30px !important;
+        background: linear-gradient(to right, #F1F1F1, #DDDDDD);
+    }
+    
+    /* Верхний блок попапа формы оформления заказа */
+    .t706__cartwin-top {
+        border-bottom: 1px solid #6a5dab !important;
+    }
+    
+    /* Нижний блок попапа формы оформления заказа */
+    .t706__cartwin-bottom {
+        border-top: 1px solid #6a5dab !important;
+    }
+    
+    /* Заголовок попапа формы оформления заказа */
+    .t706__cartwin-heading {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Фото психолога в корзине товаров */
+    .t706__product-imgdiv {
+        width: 65px !important;
+        height: 80px !important;
+    }
+    
+    /* Контейнер кнопки удаления товара из корзины */
+    .t706__product-del {
+        background-color: #6a5dab !important;
+        border-radius: 100%; 
+    }
+    
+    /* Заголовок психолога в выбранном заказе */
+    .t706__product-title {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    
+    /* Заголовок цены услуг психолога */
+    .t706__cartwin-prodamount-price {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Заголовок валюты цены услуг психолога */
+    .t706__cartwin-prodamount-currency {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Заголовок общей цены в заказе */
+    .t706__cartwin-prodamount-wrap {
+        display: none !important;
+    }
+    
+    /* Заголовок поля ввода формы оформления заказа */
+    .t-input-title {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+        color: #6a5dab !important;
+    }
+    
+    /* Поле ввода формы оформления заказа */
+    .t-input {
+        border: 1px solid #6a5dab !important;
+        border-radius: 30px !important;
+        background-color: inherit !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: black !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Плейсхолдер поля ввода */
+    .t-input::placeholder {
+        color: #000 !important;
+        font-weight: 400 !important;
+    }
+    
+    /* Поле ввода формы оформления заказа для телефона */
+    .t-input-phonemask {
+       border: none !important; 
+    }
+    
+    /* Кнопка применения промокода */
+    .t-inputpromocode__btn {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Кнопка сабмита формы оформления заказа */
+    .t-submit {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Текст промокода в форме оформления заказа */
+    .t-text {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с рассчетом промокода */
+    .t706__cartwin-totalamount-info {
+        display: none !important;
+    }
+    
+    
+    /* Текст итоговой суммы в калькуляторе промокода */
+    .t706__cartwin-totalamount-label {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с уведомлением об ошибке */
+    .t-form__errorbox-wrapper {
+        border-radius: 30px;
+        font-size: 18px !important;
+        font-weight: 600 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Текст в контейнере с уведомлением об ошибке */
+    .t-input-error {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        font-family: 'Roboto', Arial, sans-serif !important;
+    }
+    
+    /* Контейнер с формой успеха */
+    .t-form__successbox {
+        background-color: #6a5dab !important;
+        border-radius: 30px !important;
+    }
+ 
+    
+    /* ---------------------------------- Различные версии устройств --------------------------------- */
+    @media screen and (max-width: 1200px) {
+        
+        /* Изменили отступы */
+        .js-store-product_single {
+            padding: 0 20px !important;
+        }
+        
+        /* Изменили отступы */
+        .requests__container {
+            padding: 0 20px !important;
+        }
+        
+    }
+    
+        @media screen and (max-width: 960px) {
+        
+        /* Контейнер с описанием психолога */
+        .t762__col:last-of-type {
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        
+        /* Контейнер с изображением психолога (первая колонка) */
+        .t762__col:first-of-type {
+            width: 100% !important;
+            margin: 0 auto;
+        }
+    
+        /* Изображение психолога */
+        .t-slds__bgimg {
+            width: 70% !important;
+            height: 500px !important;
+        }
+        
+        /* Блок о психологе */
+        .js-store-single-product-info {
+            padding: 0 !important;
+        }
+        
+        /* Контейнер запросов */
+        .requests__container {
+            max-width: 640px !important;
+        }
+        
+        /* Заголовок запросов */
+        .requests__title {
+            display: none;
+        }
+        
+        /* Контейнер виджета */
+        .widget__container {
+            width: 100%;
+        }
+        
+    }
+    
+    
+    @media screen and (max-width: 560px) {
+        
+        /* Изменили углы контейнера формы оформления заказа в мобильной версии */
+        .t706__cartwin-content {
+            border-radius: 0 !important;
+        }
+        
+        /* Изменили цвет контейнера закрытия попапа над формой оформления заказа в мобильной версии */
+        .t706__cartwin-close {
+            background-color: #6a5dab !important;
+        }
+        
+         /* Изображение психолога */
+        .t-slds__bgimg {
+            width: 100% !important;
+            height: 450px !important;
+        }
+        
+    }
+    
